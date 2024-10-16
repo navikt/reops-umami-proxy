@@ -29,7 +29,7 @@ TODO: Fix/specify how to change ports, currently hardcoded.
 
    you can also use http-bin or similar.
 
-2. Start the program, you need to set umami and amplitude envs first.
+2. Start the program, you need to set umami envs first.
    #+BEGIN_SRC sh
    cargo watch -qx 'run'  ;; or just `cargo run`
    #+END_SRC
