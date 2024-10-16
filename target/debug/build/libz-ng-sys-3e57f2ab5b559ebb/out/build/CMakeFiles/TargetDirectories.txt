@@ -1,0 +1,9 @@
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/zlib.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/package.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/package_source.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/edit_cache.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/rebuild_cache.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/list_install_components.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/install.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/install/local.dir
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/build/CMakeFiles/install/strip.dir

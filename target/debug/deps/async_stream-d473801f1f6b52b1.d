@@ -1,0 +1,10 @@
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/libasync_stream-d473801f1f6b52b1.rmeta: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/async_stream.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/next.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/yielder.rs
+
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/libasync_stream-d473801f1f6b52b1.rlib: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/async_stream.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/next.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/yielder.rs
+
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/async_stream-d473801f1f6b52b1.d: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/async_stream.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/next.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/yielder.rs
+
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/lib.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/async_stream.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/next.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.5/src/yielder.rs:

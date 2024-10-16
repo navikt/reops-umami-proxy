@@ -1,0 +1,10 @@
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/libhyper_openssl-ddf998595a1ce9f5.rmeta: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/mod.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/cache.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/legacy.rs
+
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/libhyper_openssl-ddf998595a1ce9f5.rlib: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/mod.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/cache.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/legacy.rs
+
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/hyper_openssl-ddf998595a1ce9f5.d: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/mod.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/cache.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/legacy.rs
+
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/lib.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/mod.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/cache.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-openssl-0.10.2/src/client/legacy.rs:

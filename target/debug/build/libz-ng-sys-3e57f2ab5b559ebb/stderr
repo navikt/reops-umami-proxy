@@ -1,0 +1,22 @@
+CMake Warning (dev) at /nix/store/rv1sx6lj8x5ffik7vzy0m3w0a4ci6pnx-cmake-3.29.6/share/cmake-3.29/Modules/CMakeDependentOption.cmake:89 (message):
+  Policy CMP0127 is not set: cmake_dependent_option() supports full Condition
+  Syntax.  Run "cmake --help-policy CMP0127" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:105 (cmake_dependent_option)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_FLAGS
+
+
+make: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+clang-16: warning: argument unused during compilation: '-mfpu=neon' [-Wunused-command-line-argument]
+clang-16: warning: argument unused during compilation: '-mfpu=neon' [-Wunused-command-line-argument]
+clang-16: warning: argument unused during compilation: '-mfpu=neon' [-Wunused-command-line-argument]
+clang-16: warning: argument unused during compilation: '-mfpu=neon' [-Wunused-command-line-argument]

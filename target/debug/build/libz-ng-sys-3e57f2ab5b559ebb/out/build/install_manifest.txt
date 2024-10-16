@@ -1,0 +1,8 @@
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/lib/libz-ng.a
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/include/zlib-ng.h
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/include/zlib_name_mangling-ng.h
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/include/zconf-ng.h
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/lib/pkgconfig/zlib-ng.pc
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/lib/libz-ng.a
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/lib/cmake/zlib-ng/zlib-ng.cmake
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/build/libz-ng-sys-3e57f2ab5b559ebb/out/lib/cmake/zlib-ng/zlib-ng-debug.cmake

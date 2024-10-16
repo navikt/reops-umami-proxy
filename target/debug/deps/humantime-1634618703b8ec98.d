@@ -1,0 +1,10 @@
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/libhumantime-1634618703b8ec98.rmeta: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/duration.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/wrapper.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/date.rs
+
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/libhumantime-1634618703b8ec98.rlib: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/duration.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/wrapper.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/date.rs
+
+/Users/eilifjohansen/Documents/start/forked/amplitrude-proxy/target/debug/deps/humantime-1634618703b8ec98.d: /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/lib.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/duration.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/wrapper.rs /Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/date.rs
+
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/lib.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/duration.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/wrapper.rs:
+/Users/eilifjohansen/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-2.1.0/src/date.rs:
