@@ -2,8 +2,8 @@ use std::fmt::{self, Display, Formatter};
 
 #[derive(Debug, PartialEq)]
 pub enum Route {
-	Umami(String),
-	Unexpected(String), //Someone did a goof
+    Umami(String),
+    Unexpected(String),
 }
 
 impl Display for Route {
