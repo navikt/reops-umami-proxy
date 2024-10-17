@@ -182,32 +182,37 @@ impl ProxyHttp for AmplitudeProxy {
 			None => Ok(false),
 		}
 	}
-	// This guy should be the upstream host, all requests through the proxy gets sent th upstream_peer
 	async fn upstream_peer(
         &self,
         _session: &mut Session,
         ctx: &mut Self::CTX,
     ) -> Result<Box<HttpPeer>> {
-        let path = match &ctx.route {
-            route::Route::Umami(s) | route::Route::Unexpected(s) => s,
-        };
-        UPSTREAM_PEER.with_label_values(&[path]).inc();
+        if let route::Route::Umami(s) = &ctx.route {
+            UPSTREAM_PEER.with_label_values(&[s]).inc();
 
-        let peer = Box::new(HttpPeer::new(
-            format!(
-                "{}:{}",
-                self.conf.upstream_umami.host, self.conf.upstream_umami.port
-            )
-            .to_socket_addrs()
-            .expect("Umami specified `host` & `port` should give valid `std::net::SocketAddr`")
-            .next()
-            .expect("SocketAddr should resolve to at least 1 IP address"),
-            self.conf.upstream_umami.sni.is_some(),
-            self.conf.upstream_umami.sni.clone().unwrap_or_default(),
-        ));
+            let peer = Box::new(HttpPeer::new(
+                format!(
+                    "{}:{}",
+                    self.conf.upstream_umami.host, self.conf.upstream_umami.port
+                )
+                .to_socket_addrs()
+                .expect("Umami specified `host` & `port` should give valid `std::net::SocketAddr`")
+                .next()
+                .expect("SocketAddr should resolve to at least 1 IP address"),
+                self.conf.upstream_umami.sni.is_some(),
+                self.conf.upstream_umami.sni.clone().unwrap_or_default(),
+            ));
 
-        Ok(peer)
+            return Ok(peer);
+        }
+
+        Err(Error::explain(
+            pingora::ErrorType::Custom(AmplitrudeProxyError::NoMatchingPeer.into()),
+            "No matching peer found for the given route",
+        ))
     }
+
+
 	async fn request_body_filter(
 		&self,
 		session: &mut Session,
