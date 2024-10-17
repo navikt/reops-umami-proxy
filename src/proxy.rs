@@ -430,7 +430,7 @@ impl ProxyHttp for AmplitudeProxy {
 		Self::CTX: Send + Sync,
 	{
 		// TODO: Wrap this into a prometheus metric
-		// let proxy_duration = ctx.proxy_start.map(|start_time| start_time.elapsed());
+		let proxy_duration = ctx.proxy_start.map(|start_time| start_time.elapsed());
 
 		let Some(err) = e else {
 			// happy path
