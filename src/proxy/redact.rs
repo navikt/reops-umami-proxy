@@ -37,9 +37,9 @@ impl Rule {
 			Self::Redact => redacted.to_string(),
 		}
 	}
-	pub(crate) fn new(s: &str) -> Self {
+/* 	pub(crate) fn new(s: &str) -> Self {
 		redact(s)
-	}
+	} */
 }
 
 // This function should be split into two functions
