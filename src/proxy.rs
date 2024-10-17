@@ -85,6 +85,7 @@ impl ProxyHttp for AmplitudeProxy {
 	/// Request_filter runs before anything else. We can for example set the peer here, through ctx
 	/// also Blocks user-agent strings that match known bots
 	async fn request_filter(&self, session: &mut Session, ctx: &mut Self::CTX) -> Result<bool>
+
 	where
 		Self::CTX: Send + Sync,
 	{
@@ -189,8 +190,6 @@ impl ProxyHttp for AmplitudeProxy {
 	) -> Result<Box<HttpPeer>> {
 		let path = match &ctx.route {
 			route::Route::Umami(s)
-			| route::Route::Amplitude(s)
-			| route::Route::AmplitudeCollect(s)
 			| route::Route::Unexpected(s) => s,
 		};
 		UPSTREAM_PEER.with_label_values(&[path]).inc();
@@ -404,20 +403,12 @@ impl ProxyHttp for AmplitudeProxy {
 						.expect("Set geo-location header (city) for umami");
 				}
 			},
-			route::Route::Amplitude(_) | route::Route::AmplitudeCollect(_) => {
-				upstream_request
-					.insert_header("Host", "api.eu.amplitude.com")
-					.expect("Needs correct Host header");
-			},
 			route::Route::Unexpected(_) => {},
 		}
 
 		match &ctx.route {
 			route::Route::Umami(_) => {
 				upstream_request.set_uri(Uri::from_static("/api/send"));
-			},
-			route::Route::Amplitude(_) | route::Route::AmplitudeCollect(_) => {
-				upstream_request.set_uri(Uri::from_static("/2/httpapi"));
 			},
 			route::Route::Unexpected(_) => {},
 		}
@@ -430,7 +421,7 @@ impl ProxyHttp for AmplitudeProxy {
 		Self::CTX: Send + Sync,
 	{
 		// TODO: Wrap this into a prometheus metric
-		let proxy_duration = ctx.proxy_start.map(|start_time| start_time.elapsed());
+		// let proxy_duration = ctx.proxy_start.map(|start_time| start_time.elapsed());
 
 		let Some(err) = e else {
 			// happy path
