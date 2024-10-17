@@ -193,45 +193,21 @@ impl ProxyHttp for AmplitudeProxy {
         };
         UPSTREAM_PEER.with_label_values(&[path]).inc();
 
-        if let route::Route::Umami(_) = &ctx.route {
-            let peer = Box::new(HttpPeer::new(
-                format!(
-                    "{}:{}",
-                    self.conf.upstream_umami.host, self.conf.upstream_umami.port
-                )
-                .to_socket_addrs()
-                .expect("Umami specified `host` & `port` should give valid `std::net::SocketAddr`")
-                .next()
-                .expect("SocketAddr should resolve to at least 1 IP address"),
-                self.conf.upstream_umami.sni.is_some(),
-                self.conf.upstream_umami.sni.clone().unwrap_or_default(),
-            ));
+        let peer = Box::new(HttpPeer::new(
+            format!(
+                "{}:{}",
+                self.conf.upstream_umami.host, self.conf.upstream_umami.port
+            )
+            .to_socket_addrs()
+            .expect("Umami specified `host` & `port` should give valid `std::net::SocketAddr`")
+            .next()
+            .expect("SocketAddr should resolve to at least 1 IP address"),
+            self.conf.upstream_umami.sni.is_some(),
+            self.conf.upstream_umami.sni.clone().unwrap_or_default(),
+        ));
 
-            Ok(peer)
-        } else {
-            let mut peer = Box::new(HttpPeer::new(
-                format!(
-                    "{}:{}",
-                    self.conf.upstream_amplitude.host, self.conf.upstream_amplitude.port
-                )
-                .to_socket_addrs()
-                .expect("Amplitude specified `host` & `port` should give valid `std::net::SocketAddr`")
-                .next()
-                .expect("SocketAddr should resolve to at least 1 IP address"),
-                self.conf.upstream_amplitude.sni.is_some(),
-                self.conf.upstream_amplitude.sni.clone().unwrap_or_default(),
-            ));
-
-            peer.options.tcp_keepalive = Some(pingora::protocols::TcpKeepalive {
-                idle: std::time::Duration::from_secs(120),
-                interval: std::time::Duration::from_secs(5),
-                count: 3,
-            });
-
-            Ok(peer)
-        }
+        Ok(peer)
     }
-
 	async fn request_body_filter(
 		&self,
 		session: &mut Session,
